@@ -133,7 +133,7 @@ class FizzBuzz {
 }
 ```
 
-- [ ] Open `FizzBuzz.java` in the `src/lab1` directory and click the run button in the top left corner.
+- [x] Open `FizzBuzz.java` in the `src/lab1` directory and click the run button in the top left corner.
 
 If you don't see this button, you may need to mark `src` as the `Sources Root` for the project. You can do this
 by right-clicking the `src` directory in the `Project` tab and near the bottom of the context menu
@@ -153,7 +153,7 @@ the code are doing. For example, what's the Java version of Python's `and`? What
 on with that weird `for` loop? As you do this, you might find it useful to write down your
 own implementation in Python to help you begin to create a mapping between the two languages.
 
-- [ ] Make note of any specific Java syntax which stands out to you and compare what you
+- [x] Make note of any specific Java syntax which stands out to you and compare what you
 come up with the rest of your team. Try to come up with a list of at least five things that
 strike you as either similar to or different from Python.
 
@@ -322,13 +322,13 @@ ways to help you resolve conflicts without too much difficulty.
 To get your first experience with `git pull`, you can make a quick change to one of the files in your Fizz Buzz repository
 on GitHub.
 
-- [ ] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
+- [x] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
 right side of the screen, you should see an edit button (with a pencil on it). Click that and make a small edit to
 the file. Then click the commit button to commit the change to the repository.
 
 This change has now been made on GitHub, but your local copy doesn't know about the change yet.
 
-- [ ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
+- [x] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
 or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see the commit show up in
 your local repository.
 
@@ -350,7 +350,7 @@ on MarkUs to get practice with running the self tests on MarkUs.
 We're looking for integers greater than 0 that are multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
 four below 10. How many are below 1000?
 
-- [ ] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
+- [x] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
 Add this file to your project, commit, and push. Check your repo on GitHub to confirm your changes were pushed successfully.
 
 > Tip: Just like with `psvm`, you can start typing `sout`
@@ -363,7 +363,7 @@ is happy with their own code for this.
 
 Now, let's modify your code so that it is easy to test.
 
-- [ ] Extract a method from `Multiples.main` that will return
+- [x] Extract a method from `Multiples.main` that will return
   the answer, call it `multiples`. The answer should still be printed in your `Multiples.main` method.
   After you do this, your `Multiples.main` method should look something like:
 
@@ -375,19 +375,19 @@ System.out.println(count);
 > In order to later test the `multiples` method, we will need to change the access modifier on your
 > extracted method. To do this, you can remove the `private` keyword.
 
-- [ ] Right-click the first line and choose `Refactor->Inline Variable` to
+- [x] Right-click the first line and choose `Refactor->Inline Variable` to
   further simplify the method body to just one line of code.
 
 > Something to think about: is code _more_ or _less_ readable when we inline variables in this way?
 
-- [ ] Modify the `multiples` method so that it takes **three** parameters:
+- [x] Modify the `multiples` method so that it takes **three** parameters:
     - an integer `n`,
     - an integer `a`,
     - an integer `b`.
 
 These will all be positive integers.
 
-- [ ] Generalize the code so that it uses:
+- [x] Generalize the code so that it uses:
     - `n` in place of where 1000 was previously used
     - `a` where 3 was used
     - `b` where 5 was used.
@@ -405,9 +405,9 @@ and then `Add Junit 5.8.1 to classpath`. Then you should be able to run the test
 After you have run the tests once, you may see a play button appear beside `MultiplesTest`
 in this file. You can then click that to conveniently rerun the tests.
 
-- [ ] Make sure the tests all pass in the file.
+- [x] Make sure the tests all pass in the file.
 
-- [ ] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
+- [x] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
   and upload it to your GitHub repo.
 
 Once the tests are passing and your work is on GitHub, you are ready to submit your code to MarkUs!
