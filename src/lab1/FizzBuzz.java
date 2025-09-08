@@ -39,12 +39,12 @@ package lab1;
 class FizzBuzz {
 
     public static void main(String[] args) {
-        doFizzBuzz();
+        doFizzBuzz(100);
     }
 
-    private static void doFizzBuzz() {
+    public static void doFizzBuzz(int num) {
         int i = 1;
-        while (i < 100) {
+        while (i < num) {
 
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
